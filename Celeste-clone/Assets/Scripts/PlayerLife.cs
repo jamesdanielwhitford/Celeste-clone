@@ -8,11 +8,19 @@ public class PlayerLife : MonoBehaviour
 {
     Animator anim;
     Rigidbody2D rb;
-    // Start is called before the first frame update
+    [SerializeField] AudioSource deathSoundEffect;
+
     void Start()
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+    }
+
+    void Die()
+    {
+        rb.bodyType = RigidbodyType2D.Static;
+        anim.SetTrigger("death");
+        deathSoundEffect.Play();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -23,11 +31,6 @@ public class PlayerLife : MonoBehaviour
         }
     }
 
-    void Die()
-    {
-        rb.bodyType = RigidbodyType2D.Static;
-        anim.SetTrigger("death");
-    }
 
     void RestartLevel()
     {
