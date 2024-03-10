@@ -1,0 +1,13 @@
+﻿<Properties StartupConfiguration="{4AEBFD44-2483-78A4-5D8F-D6725AF30BF5}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LeftCubeControls.cs">
+    <Files>
+      <File FileName="Assets/Scripts/LeftCubeControls.cs" Line="7" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

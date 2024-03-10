@@ -1,0 +1,274 @@
+{
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "385f77b1-ddf7-4fe2-a4bc-5437047bf5ad",
+            "actions": [
+                {
+                    "name": "HatUp",
+                    "type": "Button",
+                    "id": "afd82317-92be-4d46-b32d-e6a108812e1f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "HatDown",
+                    "type": "Button",
+                    "id": "4950ebac-559a-4df7-86c0-857a88f07d16",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "HatLeft",
+                    "type": "Button",
+                    "id": "64878923-f10f-40ab-855c-88ca4f3f89f5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "HatRight",
+                    "type": "Button",
+                    "id": "4f378d0c-e3c3-411d-bd4d-9af04fd47103",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Button3",
+                    "type": "Button",
+                    "id": "403fc5d1-e6ac-4d3f-85e1-2e36673188cc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Button4",
+                    "type": "Button",
+                    "id": "d6319133-fa47-42f5-afb5-7f07fea9c783",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Button2",
+                    "type": "Button",
+                    "id": "ffcd9804-d376-4a25-9bea-57c9bae5c837",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Button11",
+                    "type": "Button",
+                    "id": "801e020f-77af-4533-a51d-66437217bb60",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Button9",
+                    "type": "Button",
+                    "id": "3c2006b3-bd0b-454e-8312-cc4f79fd445e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Button5",
+                    "type": "Button",
+                    "id": "d26b8e35-fe2b-4f30-a323-e5e851323f8f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Button6",
+                    "type": "Button",
+                    "id": "377a7ba6-fa5f-48d9-bebf-e7540a3d5900",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Button15",
+                    "type": "Button",
+                    "id": "d1fc1673-79bb-492f-b75f-6fdd0faa05bd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Button16",
+                    "type": "Button",
+                    "id": "55f99469-0ce2-4c19-b4ed-b43893e5ff22",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "289c71af-c8aa-4bd5-95ad-35c229c52149",
+                    "path": "<HID::Joy-Con (L)>/hat/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HatUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dd1b73f9-6e3f-46c4-8732-07ee4bc7eaaf",
+                    "path": "<HID::Joy-Con (L)>/hat/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HatDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6422b81e-d562-4064-8490-feabf46f5c4d",
+                    "path": "<HID::Joy-Con (L)>/hat/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HatLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "584a373e-63bc-45f0-935b-2bb7c31137e8",
+                    "path": "<HID::Joy-Con (L)>/hat/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HatRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4a422c96-4ae8-44e1-b954-ccb8882816ee",
+                    "path": "<HID::Joy-Con (L)>/button3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Button3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e30b425a-c715-4162-8be7-47d8b540499f",
+                    "path": "<HID::Joy-Con (L)>/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Button4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4cdd2e7b-12e5-4819-89a0-70067a17ae84",
+                    "path": "<HID::Joy-Con (L)>/button2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Button2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c7b21233-4a65-48fb-b7b4-e583fa71d256",
+                    "path": "<HID::Joy-Con (L)>/button11",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Button11",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b6e6429d-9455-46d2-8ff8-76a626f391ca",
+                    "path": "<HID::Joy-Con (L)>/button9",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Button9",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "04b76b59-2830-410a-943e-c435aee091f9",
+                    "path": "<HID::Joy-Con (L)>/button5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Button5",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "733c829f-2dd7-46b3-bc33-27fb6f11597d",
+                    "path": "<HID::Joy-Con (L)>/button6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Button6",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8d31e4ad-2784-428a-8018-35cf46976026",
+                    "path": "<HID::Joy-Con (L)>/button15",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Button15",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dd926ca5-e0e3-4a6c-8ae2-a93e73cf1e2a",
+                    "path": "<HID::Joy-Con (L)>/button16",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Button16",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
